@@ -1,0 +1,8 @@
+(executable
+ (name bench)
+ (libraries odepends))
+
+(rule 
+ (alias runbench)
+ (deps bench.exe)
+ (action (bash ./bench.exe)))

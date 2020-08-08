@@ -1,2 +1,5 @@
 (library
-  (name lib))
+  (public_name odepends)    
+  (name odepends))
+  
+(include_subdirs unqualified)  
